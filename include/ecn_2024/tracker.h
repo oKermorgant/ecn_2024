@@ -1,10 +1,10 @@
-#ifndef TRACKER_H
-#define TRACKER_H
+#ifndef TRACKER_H_
+#define TRACKER_H_
 
 #include <rclcpp/node.hpp>
-#include <geometry_msgs/msg/point.hpp>
 #include <tf2_ros/buffer.h>
 #include <tf2_ros/transform_listener.h>
+#include <geometry_msgs/msg/point.hpp>
 
 inline auto toPi(double angle)
 {
@@ -80,4 +80,4 @@ private:
   }
 };
 
-#endif // TRACKER_H
+#endif // TRACKER_H_
